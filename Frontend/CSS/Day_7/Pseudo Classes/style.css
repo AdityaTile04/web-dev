@@ -1,0 +1,125 @@
+* {
+  font-family: "Courier New";
+}
+
+h1 {
+  color: #b92b27;
+}
+
+#login,
+#signup {
+  background-color: greenyellow;
+  color: black;
+}
+
+.userpass input {
+  color: red;
+  background-color: aqua;
+}
+
+nav ul li {
+  color: red;
+}
+
+nav ul li a {
+  color: blueviolet;
+}
+
+.follow {
+  background-color: yellowgreen;
+  color: black;
+}
+.post {
+  color: #b92b27;
+}
+
+main h3 {
+  color: rgb(107, 41, 169);
+}
+.upvote {
+  background-color: red;
+  color: white;
+}
+
+span > button {
+  background-color: blue;
+  color: white;
+}
+p {
+  color: rgb(42, 34, 136);
+}
+
+p a {
+  background-color: darkorchid;
+  color: black;
+}
+
+/* Pseudo Class */
+/* A keyword added to a selector that specifies a special state of the selected elemennts */
+/* :hover
+:active
+:checked
+:nth-of-type */
+
+/* 1.hover */
+
+.upvote:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+/* 2.active */
+
+button:active {
+  color: red;
+  background-color: aqua;
+}
+
+h3:active {
+  text-decoration: underline;
+}
+
+/* 3.checked */
+
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+
+/* 4.nth-of-type   */
+
+nav ul li:nth-of-type(2n) {
+  background-color: aqua;
+}
+
+h3:nth-of-type(2n) {
+  background-color: chartreuse;
+}
+
+/* Pseudo Elements */
+/* A keyword added to a selector that lets you style a specific part of a selected elements */
+
+/* 1) ::first-letter
+2) ::first-line
+3) ::selection */
+
+/* 1. ::first-letter */
+h1::first-letter {
+  color: blue;
+}
+
+/* 2.first-line */
+p::first-line {
+  color: blue;
+}
+
+/* 3.selection */
+p::selection {
+  background-color: yellow;
+}
+
+/* !important  */
+/* To show the most specific thing in document */
+p {
+  color: green !important;
+}

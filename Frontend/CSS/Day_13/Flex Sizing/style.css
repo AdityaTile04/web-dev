@@ -1,0 +1,39 @@
+#container {
+  height: 500px;
+  width: 60%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container div {
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Flex Sizing */
+
+/* 1.flex-basis  */
+/* It set initial main size of flex item */
+#orange {
+  flex-basis: 5px;
+  flex-shrink: 2;
+}
+/* 2.flex-grow  */
+#blue {
+  flex-grow: 2;
+}
+/* 3.flex-shrink */
+#blue {
+  flex-shrink: 2;
+}

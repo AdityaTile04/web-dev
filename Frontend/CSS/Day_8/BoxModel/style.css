@@ -1,0 +1,155 @@
+/* BoxModel in CSS */
+/* Height
+Width
+Border
+Padding
+Margin */
+
+/* 1.Height  */
+/* By default, it sets the content area height of the element */
+
+div {
+  height: 150px;
+}
+
+/* 2.Width  */
+/* By default, it sets the content area width of the context */
+
+div {
+  width: 500px;
+}
+
+/* 3.Border */
+/* Used to set elements border */
+
+/* border-width
+border-style
+border-color */
+
+/* 1.border-width */
+
+div {
+  border-width: 5px;
+  border-style: solid;
+  border-color: aqua;
+}
+
+/* Border Sides */
+/* To control an indivisual side of the box */
+
+/* border-left
+border-right
+border-top
+border-bottom */
+
+h1 {
+  border-top: 5px solid red;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: green;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-right-color: yellow;
+}
+
+/* Border Radius */
+/* Used to round the corners of an elements outer border edge */
+
+button {
+  width: 100px;
+  height: 25px;
+}
+
+/* 4.Padding  */
+
+/* padding-left
+padding-right
+padding-top
+padding-bottom */
+
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  padding-left: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* padding shorthand */
+
+/* 1.For all 4 sides */
+
+h1 {
+  padding: 15px;
+}
+
+/* 2.top & bottom | left & right */
+
+button {
+  padding: 10px 15px;
+}
+
+/* 3.top | left & right | bottom */
+
+h1 {
+  padding: 10px 12px 15px;
+}
+
+/* 4.top | right | bottom | left (Clockwise) */
+
+button {
+  padding: 10px 10px 30px 30px;
+}
+
+/* 5.Margin  */
+/* to set spacing on the outside border */
+
+/* margin-left
+margin-right
+margin-right
+margin-bottom */
+
+div {
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* Margin Shorthand */
+
+/* 1.For all 4 sides */
+
+button {
+  margin: 10px;
+}
+
+/* 2.top & bottom | left & right */
+
+h1 {
+  margin: 20px 20px;
+}
+
+/* 3.top | left & right | bottom */
+
+div {
+  margin: 10px 15px 20px;
+}
+
+/* 4.top | right | bottom | left (Clockwise) */
+
+div {
+  margin: 10px 20px 30px 40px;
+}

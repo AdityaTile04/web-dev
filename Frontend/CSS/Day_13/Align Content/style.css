@@ -1,0 +1,51 @@
+#container {
+  height: 500px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container div {
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Align Content */
+
+/* It sets the distribution pf space beetween around content items along a flexbox cross axis */
+
+/* align-content: flex-start; */
+#container {
+  align-content: flex-start;
+}
+/* align-content: flex-emd; */
+#container {
+  align-content: flex-end;
+}
+/* align-content: center; */
+#container {
+  align-content: center;
+}
+/* align-content: space-between; */
+#container {
+  align-content: space-between;
+}
+/* align-content: space-around; */
+#container {
+  align-content: space-around;
+}
+/* align-content: space-evenly; */
+#container {
+  align-content: space-evenly;
+}

@@ -1,0 +1,20 @@
+div {
+  height: 200px;
+  width: 600px;
+  background-color: aqua;
+}
+
+ul {
+  background-color: aquamarine;
+}
+
+li {
+  background-color: blueviolet;
+}
+
+.nxt {
+  background-color: aquamarine;
+  height: 200px;
+  width: 600px;
+  margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+/* Media Queries  */
+/* Helps to create a responsive website */
+
+h1 {
+  background-color: aqua;
+  border: 2px solid black;
+}
+.res {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  text-align: center;
+  font-size: 50px;
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+  h1 {
+    background-color: blueviolet;
+    color: white;
+  }
+}
+
+@media (orientation: landscape) {
+  h1 {
+    background-color: aquamarine;
+    color: black;
+  }
+}

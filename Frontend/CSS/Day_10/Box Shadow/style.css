@@ -1,0 +1,11 @@
+/* Box Shadow */
+/* It add shadow effects around an elements frame */
+
+div {
+  height: 60px;
+  width: 300px;
+  background-color: #f400a1;
+  text-align: center;
+  margin: 10px auto;
+  box-shadow: 5px 5px 10px black;
+}

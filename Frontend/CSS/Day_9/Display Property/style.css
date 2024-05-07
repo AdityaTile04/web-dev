@@ -1,0 +1,20 @@
+/* Display  */
+/* It sets whether an element is treated as a block or inline element and the layout used for its children */
+
+/* display: block;
+display: inline; */
+
+h1 {
+  display: inline;
+}
+span {
+  display: block;
+}
+div {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: aqua;
+  display: inline-block;
+}

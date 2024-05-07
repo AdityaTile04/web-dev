@@ -1,0 +1,14 @@
+/* Background Image */
+/* Set Image as a background */
+
+div {
+  height: 300px;
+  width: 600px;
+  background-color: cornflowerblue;
+  margin: 10px auto;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+
+

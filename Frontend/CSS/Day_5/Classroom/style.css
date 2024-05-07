@@ -1,0 +1,43 @@
+/* color property */
+/* Used to set the color of foreground */
+
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+/* background color property */
+/* used to set the color of background */
+
+h1 {
+  background-color: green;
+}
+
+p {
+  background-color: aqua;
+}
+
+/* Color Systems */
+
+/* 1. Named Color */
+/* Eg: red, green, blue, pink, purple, magenta, teal etc */
+
+button {
+  color: green;
+}
+
+/* 2. RGB  */
+/* red grren blue(0, 255) */
+
+button {
+  color: rgb(208, 0, 255);
+}
+
+/* 3. Hexadecimal or Hex */
+
+h2 {
+  color: #ff00ff;
+}

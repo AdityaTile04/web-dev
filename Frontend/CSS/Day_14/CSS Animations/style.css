@@ -1,0 +1,115 @@
+/* CSS Animations  */
+/* To animate css elements */
+/* Properties used for animations:
+ animation-name:
+  animation-duration: 
+  animation-timing-function:
+  animation-delay:
+  animation-iteration-count:
+  animation-direction:
+*/
+
+/* Shorthand for animation properties */
+/* animation: myName 2s linear 3s infinite normal; */
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  text-align: center;
+
+  animation-name: widthAnimate, colorAnimate, fontAnimate, radiusAnimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+h1 {
+  animation: headAnimate 2s ease-in-out 0s infinite alternate-reverse;
+}
+
+.animation {
+  height: 300px;
+  width: 300px;
+  background-color: chartreuse;
+
+  animation: fontAnimate 2s ease-in-out 0s infinite alternate-reverse;
+}
+#animate {
+  animation: bgAnimate 5s linear 0s infinite alternate-reverse;
+}
+/* % in Animation */
+
+@keyframes fontAnimate {
+  0% {
+    font: 10px;
+  }
+  50% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+@keyframes bgAnimate {
+  0% {
+    background-color: aqua;
+  }
+  25% {
+    background-color: cadetblue;
+  }
+  50% {
+    background-color: chocolate;
+  }
+  75% {
+    background-color: cornflowerblue;
+  }
+  100% {
+    background-color: darkorchid;
+  }
+}
+
+@keyframes colorAnimate {
+  from {
+    background-color: orange;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes radiusAnimate {
+  from {
+    border-radius: 0%;
+  }
+  to {
+    border-radius: 50%;
+  }
+}
+@keyframes widthAnimate {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 600px;
+  }
+}
+@keyframes fontAnimate {
+  from {
+    font-size: 10px;
+  }
+  to {
+    font-size: 60px;
+  }
+}
+@keyframes headAnimate {
+  from {
+    color: orange;
+  }
+  to {
+    color: red;
+  }
+}

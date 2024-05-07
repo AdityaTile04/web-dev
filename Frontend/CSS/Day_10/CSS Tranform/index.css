@@ -1,0 +1,49 @@
+* {
+  margin: 20px auto;
+}
+
+.one {
+  background-color: #32de84;
+  height: 60px;
+  width: 400px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.one:nth-of-type(2n) {
+  background-color: #ff033e;
+}
+.one:nth-of-type(3n) {
+  background-color: #ff00ff;
+}
+
+/* 3.CSS Transform  */
+/* This property lets you rotate, scale, skew, or translate an element */
+
+/* i) rotate */
+
+#one {
+  transform: rotate(10deg);
+}
+
+/* ii) scale */
+
+#one {
+  transform: scale(0.5);
+}
+
+/* iii) translate */
+
+#two {
+  transform: translate(50px, 50px);
+}
+
+/* iv) skew */
+
+#four {
+  transform: skew(30deg);
+}
+
+#five {
+  transform: rotate(30deg) translate(40px) scale(0.7) skew(30deg);
+}

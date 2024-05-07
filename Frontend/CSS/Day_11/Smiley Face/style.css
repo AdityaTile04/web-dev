@@ -1,0 +1,50 @@
+div {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  padding: 6px;
+}
+.circle {
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: #ffa511;
+}
+.small {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  left: 70px;
+  padding: auto;
+}
+.small2 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  left: 270px;
+  top: 58px;
+  padding: auto;
+}
+#smile {
+  height: 7px;
+  width: 230px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: black;
+  position: relative;
+  top: 140px;
+  transition: linear 1s;
+}
+#smile:hover {
+  height: 70px;
+  width: 230px;
+  background-color: brown;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}

@@ -1,0 +1,40 @@
+/* Practice Question 1 CSS*/
+
+#container {
+  height: 400px;
+  width: 400px;
+  border: 2px solid teal;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  background-color: gray;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* Practice Question 2 CSS*/
+
+#container2 {
+  height: 50px;
+  width: 900px;
+  border: 2px solid teal;
+  border-radius: 20px;
+  background-color: pink;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.nav {
+  height: 50px;
+  width: 24px;
+  flex-basis: 4000px;
+  line-height: 50px;
+  font-size: 24px;
+}

@@ -1,0 +1,42 @@
+/* Practice Question 1 CSS */
+h2 {
+  color: orange;
+}
+
+p {
+  color: white;
+  background-color: black;
+}
+
+button {
+  color: white;
+  background-color: blue;
+}
+
+/* Practice Question 2 CSS */
+
+h3 {
+  color: #ffffff;
+  background-color: #ffff00;
+  background-color: rgb(255, 255, 0);
+}
+
+h2 {
+  background-color: #0000ff;
+  background-color: rgb(0, 00, 255);
+}
+
+/* Practice Question 3 CSS */
+h1 {
+  text-align: center;
+  font-family: league spartan;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #ffa551;
+  text-decoration: underline teal double;
+  font-size: 55px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/* Practice Question 4 CSS */

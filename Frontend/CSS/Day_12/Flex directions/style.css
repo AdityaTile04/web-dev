@@ -1,0 +1,30 @@
+/* display: flex; */
+
+/* 1.Flexbox Directions */
+
+/* 1.flexbox-direction: row;  */
+/* 2.flexbox-direction: row-reverse;  */
+/* 3.flexbox-direction: colomn;  */
+/* 4.flexbox-direction: colomn-reverse;  */
+
+#container {
+  height: 500px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container div {
+  height: 100px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}

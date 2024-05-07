@@ -1,0 +1,37 @@
+#container {
+  height: 500px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container div {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+#container {
+  justify-content: flex-start;
+}
+
+/* Flex Wrap */
+
+/* Sets the whether flex items are forced onto one line or can wrap onto the multiple lines */
+
+/* 1.flex-wrap: nowrap; */
+/* 1.flex-wrap: wrap; */
+/* 1.flex-wrap: wrap-reverse; */
+
+#container {
+  flex-wrap: wrap;
+}

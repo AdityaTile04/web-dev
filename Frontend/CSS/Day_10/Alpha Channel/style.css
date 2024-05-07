@@ -1,0 +1,56 @@
+/* 1.Alpha Channel */
+
+/* Sets a opacity for a color */
+/* Ranges 0 to 1 */
+/* 0 means hidden */
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(255, 255, 0, 1);
+}
+
+/* 2.Opacity */
+
+/* Sets the opacity for the element */
+/* Ranges from 0 to 1 */
+
+#opacity {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  opacity: 0.5;
+}
+
+/* CSS Transition */
+/* Transition enables you to define the transition between two states of an element. */
+
+#transition {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  margin-top: 10px;
+  transition: 1s;
+  transition-delay: 1s;
+}
+
+#transition:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* Transition Timing */
+
+.transition1 {
+  height: 150px;
+  width: 150px;
+  background-color: chartreuse;
+  margin-top: 10px;
+  transition: margin-left 1s ease-in;
+}
+
+.transition1:hover {
+  margin-left: 400px;
+  background-color: chocolate;
+  border-radius: 50%;
+}

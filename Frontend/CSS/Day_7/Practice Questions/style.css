@@ -1,0 +1,42 @@
+/* Practice Question */
+
+#mainTopic {
+  color: blue;
+}
+
+* {
+  text-align: center;
+}
+
+h1,
+h3,
+h5 {
+  font-family: Georgia;
+}
+
+.para {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+div button {
+  color: azure;
+  background-color: purple;
+}
+
+button:hover {
+  color: blue;
+  background-color: yellow;
+}
+
+p:nth-of-type(3n) {
+  color: yellow;
+}
+
+h1::first-letter {
+  color: red;
+}
+
+input[type="checkbox"]:checked + label {
+    color: darkgreen;
+}

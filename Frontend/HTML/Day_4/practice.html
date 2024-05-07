@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <!-- Practice Question -->
+    <h3>Registration Form</h3>
+    <form action="/action">
+      <div>
+        <input type="text" placeholder="First Name" name="fname" />
+        <input type="text" placeholder="Last Name" name="lname" />
+      </div>
+      <div>
+        <label for="gender">Please select gender</label>
+        <select id="gender" name="gender">
+          <option value="m" id="gender">Male</option>
+          <option value="f" id="gender">Female</option>
+          <option value="o" id="gender">Other</option>
+        </select>
+      </div>
+      <div>
+        Do you agree to all terms of servcie?
+        <input type="checkbox" id="checks" name="tos" />
+        <label for="checks">Yes, i agree</label>
+      </div>
+      <button>Register</button>
+    </form>
+
+    <!-- Practice Question 2 -->
+
+    <table border="black">
+      <caption>
+        Student Information
+      </caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th>City</th>
+        <th>House</th>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+      </tr>
+    </table>
+
+    <!-- Practice Question 3 -->
+    <form action="/action">
+      <div>
+        <label for="name1">Name:</label>
+        <input type="text" name="name" id="name1" />
+      </div>
+      <br />
+      <div>
+        Sex:
+        <input type="radio" name="male" id="male" />Male
+        <input type="radio" name="female" id="female" />Female
+        <label for="sex"></label>
+      </div>
+      <br />
+      <div>
+        Country:
+        <select name="country" id="country">
+          <option value="">Select an option</option>
+          <option value="can">Canada</option>
+          <option value="us">USA</option>
+          <option value="np">Nepal</option>
+          <option value="ind">India</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="message">Message:</label><br />
+        <textarea name="message" id="message" rows="2" cols="30"></textarea>
+      </div>
+
+      <div>
+        <input type="checkbox" name="subscribe" id="check" />
+        <label for="check">Subscribe?</label>
+      </div>
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <!-- Practice Question -->
+
+    <h3>Feedback Form</h3>
+    <form action="/action">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Write Your Name" id="name" name="name2" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="Write Your Name"
+        id="email"
+        name="email2"
+      />
+      <br />
+      <br />
+      <label for="message"
+        >Message:
+        <br />
+      </label>
+      <textarea name="msg" id="message" cols="30" rows="4"></textarea>
+      <div>
+        Rate us out of 5:
+        <br />
+        <input type="radio" name="one" value="one" id="one" />
+        <label for="one">1</label>
+        <br />
+        <input type="radio" name="two" value="two" id="two" />
+        <label for="two">2</label>
+        <br />
+        <input type="radio" name="three" value="three" id="three" />
+        <label for="three">3</label>
+        <br />
+        <input type="radio" name="four" value="four" id="four" />
+        <label for="four">4</label>
+        <br />
+        <input type="radio" name="five" value="five" id="five" />
+        <label for="five">5</label>
+      </div>
+      <br />
+      <button>Send your message!</button>
+    </form>
+  </body>
+</html>

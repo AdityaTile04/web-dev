@@ -1,0 +1,48 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: cadetblue;
+  border: 2px solid black;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Positions In CSS */
+/* The Position CSS Propertie sets how element is positioned in a document. the top,right,bottom and left properties determine the finel location of positioned elements */
+
+/* 1.Static */
+
+#static {
+  background-color: aqua;
+  position: static;
+  top: 100px;
+  left: 100px;
+}
+
+/* 2.Relative */
+
+#relative {
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+/* 3.Absolute */
+
+#absolute {
+  background-color: aqua;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+/* 4.Fixed */
+
+#fixed {
+  background-color: aqua;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+}

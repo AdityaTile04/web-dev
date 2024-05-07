@@ -1,0 +1,42 @@
+#container {
+  height: 500px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container div {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Align Self */
+/* Aligns an item along the cross axis */
+
+/* align-self: flex-start; */
+.orange {
+  align-self: flex-start;
+}
+/* align-self: flex-end; */
+.orange {
+  align-self: flex-end;
+}
+/* align-self: center; */
+.orange {
+  align-self: center;
+}
+/* align-self: baseline; */
+.orange {
+  align-self: baseline;
+}

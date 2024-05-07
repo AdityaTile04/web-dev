@@ -1,0 +1,51 @@
+#container {
+  height: 500px;
+  width: 80%;
+  border: 2px solid black;
+  margin: 10px auto;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container div {
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* 2.Justify Content */
+
+/* Tells how the browser distributes space between and around content item along the main-axis */
+
+/* 1.justify-content: flex-start; */
+/* 2.justify-content: flex-end; */
+/* 3.justify-content: center; */
+/* 4.justify-content: space-between; */
+/* 5.justify-content: space-around; */
+/* 6.justify-content: space-evenly; */
+
+#container {
+  justify-content: flex-start;
+}
+#container {
+  justify-content: flex-end;
+}
+#container {
+  justify-content: center;
+}
+#container {
+  justify-content: space-between;
+}
+#container {
+  justify-content: space-around;
+}
+#container {
+  justify-content: space-evenly;
+}

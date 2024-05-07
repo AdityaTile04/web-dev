@@ -1,0 +1,78 @@
+/* Selectors in CSS  */
+
+/* 1.Universal Selector:
+To select everything in a document */
+
+* {
+  font-family: "Courier New";
+}
+
+/* 2. Element Selector: 
+ Selects all elements of the same type */
+
+h1,
+h3 {
+  color: #b92b27;
+}
+
+/* 3.id Selector:
+Selects an element based on the value of the elements id  */
+
+#login {
+  background-color: #ffffff;
+}
+#signup {
+  background-color: #b92b27;
+  color: #ffffff;
+}
+
+/*6.class Selector:
+Selects an element based on thier class attribute */
+
+.upvote {
+  background-color: red;
+  color: white;
+}
+
+/* 5.Decendant Selector:
+Eg: Selects all paragraphs inside divs */
+
+.post a {
+  color: purple;
+  background-color: aquamarine;
+}
+
+p a {
+  background-color: purple;
+  color: white;
+}
+
+/* 6.Adjacent Sibiling Combinator:
+Eg:Heading3 that comes immediately after any paragraph */
+
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: aqua;
+  color: black;
+}
+
+/* 7.Child Combinator:
+Eg:Select all buttons which are direct children of span */
+
+div > input {
+  background-color: chartreuse;
+}
+
+/* 8.Attribute Selector:
+Selects elements based on the presence or value of given attribute */
+
+input[type="text"] {
+  color: red;
+}
+
+input[type="password"] {
+  color: blue;
+}

@@ -1,0 +1,56 @@
+/* Relative Units */
+
+/* 1.Percentage(%) */
+
+#outer {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  background-color: aqua;
+  margin: 40px;
+}
+
+#inner {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: brown;
+  margin: 10%;
+}
+
+/* 2.em */
+/* Font size of the parent, in case of typographical properties like font-size and font-size of element itself. in case other properties like width */
+
+#outer1 {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  background-color: blueviolet;
+  font-size: 10px;
+}
+#inner1 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  background-color: chartreuse;
+  font-size: 3em;
+  padding: 1em;
+  margin: 1em;
+}
+button {
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 1em;
+}
+
+/* 3.Rem(Root Em) */
+/* Font size of the root element */
+
+section {
+  font-size: 15px;
+}
+.inner1 {
+  font-size: 4rem;
+}

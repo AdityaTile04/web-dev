@@ -1,0 +1,32 @@
+.container {
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* Common Properties in Grid */
+/* .container {
+  justify-items: center;
+  align-items: center;
+}
+#one {
+  justify-self: center;
+  align-self: start;
+} */
+.container {
+    place-items: center;
+    
+}
+#one {
+    place-self: start;
+}
